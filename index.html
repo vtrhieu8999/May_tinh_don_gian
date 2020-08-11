@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>May tinh don gian</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th colspan="4"><span id="display"  style="float: right">0</span></th>
+        </tr>
+
+        <tr>
+            <td><button onclick="addNum('1')">1</button></td>
+            <td><button onclick="addNum('2')">2</button></td>
+            <td><button onclick="addNum('3')">3</button></td>
+            <td><button onclick="addOp('+')">+</button></td>
+
+        </tr>
+        <tr>
+            <td><button onclick="addNum('4')">4</button></td>
+            <td><button onclick="addNum('5')">5</button></td>
+            <td><button onclick="addNum('6')">6</button></td>
+            <td><button onclick="addOp('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="addNum('7')">7</button></td>
+            <td><button onclick="addNum('8')">8</button></td>
+            <td><button onclick="addNum('9')">9</button></td>
+            <td><button onclick="addOp('x')">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="C()">C</button></td>
+            <td><button onclick="addNum('0')">0</button></td>
+            <td><button onclick="equal()">=</button></td>
+            <td><button onclick="addOp('/')">/</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="mot()">Sin</button></td>
+            <td colspan="2"><button onclick="mot()">Cos</button></td>
+        </tr>
+
+    </table>
+
+</body>
+<script src="script.js"></script>
+</html>
